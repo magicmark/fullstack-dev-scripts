@@ -2,8 +2,6 @@
 
 A collection of scripts/snippets/cheat sheets to use during full stack development.
 
----
-
 ## npm/yarn package managment
 
 ### list all top level JS dependencies
