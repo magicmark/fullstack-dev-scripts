@@ -1,6 +1,4 @@
-# Fullstack Dev Scripts
-
-![](logo.gif)
+![Fullstack Dev Scripts](logo.gif)
 
 A collection of scripts/snippets/cheat sheets to use during full stack development.
 
