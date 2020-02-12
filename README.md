@@ -1,6 +1,6 @@
 # ![Fullstack Dev Scripts](logo.gif)
 
-A collection of scripts/snippets/cheat sheets to use during full stack development.
+A collection of scripts/snippets/cheat sheets I use during full stack development.
 
 ## npm/yarn package managment
 
