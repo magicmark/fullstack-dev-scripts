@@ -1,6 +1,8 @@
 # ![Fullstack Dev Scripts](logo.gif)
 
-A collection of scripts/snippets/cheat sheets I use during full stack development.
+A collection of scripts/snippets/etc I use during full stack development.
+
+(I still use [tldr pages](https://tldr.sh/) as a cheat sheet for specific tooling examples. The commands listed below are means to an end.)
 
 ## npm/yarn package managment
 
