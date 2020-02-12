@@ -2,7 +2,7 @@
 
 A collection of scripts/snippets/etc I use during full stack development.
 
-(I still use [tldr pages](https://tldr.sh/) as a cheat sheet for specific tooling examples. The commands listed below are means to an end.)
+_(I still use [tldr pages](https://tldr.sh/) as a cheat sheet for specific tooling examples. This repo is intended to contain scripts to achieve certain goals, and not as a generic reference for any particular toolset.)_
 
 ## npm/yarn package managment
 
