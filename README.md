@@ -16,7 +16,7 @@ jq -r '.dependencies , .devDependencies | to_entries | .[] | .key' package.json 
 jq -r '.dependencies | to_entries[] | .key as $k | .value as $v | "\($k)@\($v)"' package.json | tr '\n' ' '
 ```
 
-## find all yarn linked packages
+## find all linked packages
 
 ```sh
 find node_modules -maxdepth 1 -type l -ls
