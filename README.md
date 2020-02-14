@@ -70,5 +70,5 @@ echo $FOO
 ### run a hello world docker container (with cleanup)
 
 ```sh
-docker run -t -i --rm ubuntu bash
+docker run -it --rm ubuntu bash
 ```
