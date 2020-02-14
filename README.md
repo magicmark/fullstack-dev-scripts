@@ -72,3 +72,10 @@ echo $FOO
 ```sh
 docker run -it --rm ubuntu bash
 ```
+
+### build & run a container
+
+```sh
+$ docker build -t myapp1 .
+$ docker run -it --rm --name app-instance myapp1
+```
