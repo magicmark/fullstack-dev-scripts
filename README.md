@@ -37,7 +37,7 @@ ps fux | grep my_service_here | tr -s ' ' | cut -d' ' -f2 | xargs kill
 ### change the value of a constant in a directory
 
 ```sh
-find /path/to/directory type f -name "*.yaml" | xargs -I{} sed -i -e 's/mem: 2800/mem: 4096/g' {}
+find /path/to/directory -type f -name "*.yaml" | xargs -I{} sed -i -e 's/mem: 2800/mem: 4096/g' {}
 ```
 
 ### `tree` (with ignored directories)
