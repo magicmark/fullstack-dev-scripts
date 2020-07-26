@@ -24,6 +24,29 @@ jq -r '.dependencies | to_entries[] | .key as $k | .value as $v | "\($k)@\($v)"'
 find node_modules -maxdepth 1 -type l -ls
 ```
 
+## JavaScript 
+
+#### CLI Script
+
+```js
+/**
+ * @file Tool to do stuff
+ *
+ * Usage:
+ *
+ *   $ ./path/to/script <foo> <bar>
+ */
+
+async function main({ foo, bar }) {
+    // do stuff
+}
+
+if (!process.env.NODE_ENV && require.main === module) {
+    const [ , , foo, bar] = process.argv;
+    main({ foo, bar });
+}
+```
+
 ## Bash
 
 ### killing all processes related to X
