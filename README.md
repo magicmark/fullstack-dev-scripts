@@ -29,6 +29,8 @@ find node_modules -maxdepth 1 -type l -ls
 #### CLI Script
 
 ```js
+#!/usr/bin/env node
+
 /**
  * @file Tool to do stuff
  *
