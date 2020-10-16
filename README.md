@@ -47,7 +47,7 @@ if (!process.env.NODE_ENV && require.main === module) {
     const [ , , foo, bar] = process.argv;
     main({ foo, bar });
     
-    main({ foo, bar ).catch(e => {
+    main({ foo, bar }).catch(e => {
         console.error('\n======= Error caught in ./path/to/my/script =======');
         console.error(e);
         process.exit(1);
