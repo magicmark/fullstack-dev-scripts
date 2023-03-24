@@ -26,7 +26,23 @@ find node_modules -maxdepth 1 -type l -ls
 
 ## JavaScript 
 
-#### CLI Script
+### Debugging
+
+See: https://nodejs.org/api/debugger.html#debugger
+
+`breakOnException` in particular is useful for debugging programs that gobble up stack traces
+
+```
+node inspect foo.js
+```
+
+#### Jest Tests
+
+```
+NODE_INSPECT_RESUME_ON_START=1 node inspect node_modules/.bin/jest --runInBand --coverage false /path/to/test.js
+```
+
+### CLI Script
 
 ```js
 #!/usr/bin/env node
