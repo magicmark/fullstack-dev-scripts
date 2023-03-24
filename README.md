@@ -4,6 +4,17 @@ A collection of scripts/snippets/etc I use during full stack development.
 
 _(I still use [tldr pages](https://tldr.sh/) as a cheat sheet for specific tooling examples. This repo is intended to contain scripts to achieve certain goals, and not as a generic reference for any particular toolset.)_
 
+Table of contents
+=================
+
+<!--ts-->
+   * [npm/yarn package managment](#npmyarn-package-managment)
+   * [JavaScript](#javascript)
+      * [Debugging](#debugging)
+   * [Bash](#bash)
+   * [Docker](#docker)
+<!--te-->
+
 ## npm/yarn package managment
 
 ### list all top level JS dependencies
